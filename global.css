@@ -5,11 +5,8 @@ body {
 
 :root {
   /* fonts */
-  --font-lay-grotesk: "Lay Grotesk";
+  --font-lay-grotesk: "Lay Grotesk", "LayGrotesk-Medium", sans-serif;
 
   /* Colors */
   --color-lightgray: #d1d1d1;
-}
-selector {
-  font-family: var(--font-lay-grotesk), "LayGrotesk-Medium", sans-serif;
 }
