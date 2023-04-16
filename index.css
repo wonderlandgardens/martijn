@@ -9,6 +9,9 @@
 .im-a-passionate {
   margin: 0;
 }
+a {
+  color: #eee;
+}
 .im-a-passionate-container {
   align-self: stretch;
   position: relative;
