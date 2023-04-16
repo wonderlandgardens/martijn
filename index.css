@@ -9,6 +9,12 @@
 .im-a-passionate {
   margin: 0;
 }
+@font-face {
+  font-family: 'Lay Grotesk';
+  src: url('/LayGrotesk-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
 a {
   color: #eee;
 }
