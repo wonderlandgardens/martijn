@@ -5,7 +5,7 @@ body {
 
 :root {
   /* fonts */
-  --font-lay-grotesk: "Lay Grotesk", "LayGrotesk-Medium", sans-serif;
+  --font-lay-grotesk: "Lay Grotesk", "LayGrotesk-Medium", url(path/to/LayGrotesk-Medium.otf) format("opentype"), sans-serif;
 
   /* Colors */
   --color-lightgray: #d1d1d1;
