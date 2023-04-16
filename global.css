@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lay-grotesk: "Lay Grotesk";
+
+  /* Colors */
+  --color-lightgray: #d1d1d1;
+}

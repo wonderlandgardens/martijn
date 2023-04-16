@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lay Grotesk:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="im-a-passionate-design-leadd-parent" data-animate-on-scroll>
+      <div class="im-a-passionate-container" data-animate-on-scroll>
+        <p class="im-a-passionate">
+          I'm a passionate design lead/director and avid traveller with a deep
+          appreciation for food, travel and gardening.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          Back in the day, I dreamed of starting an design studio (and a
+          restaurant) in the heart of Amsterdam.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          Fast forward 9 years and I founded WONDERLAND, a digital brand studio
+          dedicated to creating exceptional brand experiences that leave a
+          lasting impression.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          With numerous digital awards and successful projects under our belt,
+          we've helped companies achieve digital excellence in the ever-evolving
+          digital landscape.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          I also founded the HUMAN newsletter - celebrated by industry peers for
+          its simplicity and curation, with over 36 campaigns to date.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          I have judged or spoken at the Webby, Lovies and Awwwards, and before
+          Wonderland I worked at JWT and TBWA.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          Over the past two decades I've won many digital awards, including
+          ADCN, FWA, Awwwards, Lovies, Webby with Wonderland.
+        </p>
+        <p class="im-a-passionate">&nbsp;</p>
+        <p class="im-a-passionate">
+          I studied Media & Communication with a focus on graphic design,
+          photography and film. (I still have a weakness for interior design
+          though).
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
