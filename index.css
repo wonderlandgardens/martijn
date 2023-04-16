@@ -37,6 +37,25 @@ a {
   color: var(--color-lightgray);
   font-family: var(--font-lay-grotesk);
 }
+@media screen and (max-width: 600px) {
+  .im-a-passionate-design-leadd-parent {
+    position: relative;
+    background-color: #8c8c8c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 36px;
+    color: var(--color-lightgray);
+    font-family: var(--font-lay-grotesk);
+  }
+}
+
+
 @media screen and (max-width: 1200px) {
   .im-a-passionate-design-leadd-parent {
     opacity: 0;
