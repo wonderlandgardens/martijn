@@ -10,3 +10,6 @@ body {
   /* Colors */
   --color-lightgray: #d1d1d1;
 }
+selector {
+  font-family: var(--font-lay-grotesk), "LayGrotesk-Medium", sans-serif;
+}
