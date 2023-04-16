@@ -41,7 +41,7 @@ a {
   text-align: left;
   font-size: 60px;
   color: var(--color-lightgray);
-  font-family: var(--font-lay-grotesk);
+  font-family: "Lay Grotesk";
 }
 @media screen and (max-width: 600px) {
   .im-a-passionate-design-leadd-parent {
@@ -57,7 +57,7 @@ a {
     text-align: left;
     font-size: 36px;
     color: var(--color-lightgray);
-    font-family: var(--font-lay-grotesk);
+    font-family: "Lay Grotesk";
   }
 }
 
