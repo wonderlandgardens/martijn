@@ -1,0 +1,39 @@
+{
+  "projectName": "martijn",
+  "summary": "Without any specific file names or descriptions, it's impossible to accurately determine what this project does. However, based on the languages used, we can make some educated guesses.\n\nThis project is likely a web-based application. HTML and CSS are used for structuring and styling the web pages, respectively. JSON is typically used for data interchange between the server and the client, suggesting that the application might be interacting with a server to fetch or send data. XML could be used for a similar purpose, or it might be used for configuration files. Markdown is often used for documentation, so there's likely a detailed documentation for this project.\n\nHowever, without more specific information, it's impossible to determine the exact nature of the web application. It could be anything from a simple static website to a complex dynamic web application.",
+  "languages": [
+    "XML",
+    "JSON",
+    "Markdown",
+    "CSS",
+    "HTML"
+  ],
+  "noteworthyDependencies": [
+    {
+      "name": "parcel",
+      "version": "^2.7.0"
+    }
+  ],
+  "samplePrompts": [
+    "What is the main purpose of the web application?",
+    "How is JSON being used in this application?",
+    "What components or data points are contained in the XML files?",
+    "Where is Markdown used within this project?",
+    "How is the CSS organized in this project?",
+    "Is the HTML content dynamically generated in any part of the application?",
+    "Can you describe how data fetching and sending works in this application?",
+    "How is parcel being utilized as a dependency in this project?",
+    "What is the purpose of the configuration files if any?",
+    "Is there unit testing present in the codebase and if so how is it structured?",
+    "Are there any unique or complex functions or methods in this codebase that I should be aware of?",
+    "What are the key functions of the web application and how do they interact?",
+    "What does the file structure and naming convention used in the project tell me about the layout of the codebase?",
+    "Are there any specific standards or design patterns I should be aware of while navigating this codebase?",
+    "What are the major dependencies of this project outside of parcel?",
+    "What critical issues or bugs have been identified in the present codebase?",
+    "Are there any performance specific aspects in this codebase?",
+    "What are the largest challenges this project has encountered during its development and how were they addressed in the codebase?",
+    "What sections of the codebase undergo frequent changes?",
+    "How is error handling done in this application, and what do I need to know?"
+  ]
+}
